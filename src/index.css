@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%; /* Reset 1 rem to 10px */
+  font-family: Roboto, sans-serif;
+}
+
+/* Take full control of sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-auto-rows: 11px;
+}
+
+.grid div {
+  width: 11px;
+  height: 11px;
+  border: 1px solid lightgray;
+}
+
+.thread {
+  background-color: orange;
+}
+.empty {
+  background-color: white;
+}
