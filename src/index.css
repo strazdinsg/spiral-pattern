@@ -26,9 +26,6 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.thread {
+.t {
   background-color: orange;
-}
-.empty {
-  background-color: white;
 }

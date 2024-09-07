@@ -1,7 +1,16 @@
 import Grid from "./Grid";
+import DownloadCsv from "./DownloadCsv";
+import { calculatePattern } from "./Pattern";
 
 const maxDistance = 160;
 
 export default function App() {
-  return <Grid maxDistance={maxDistance} />;
+  const pattern = calculatePattern(maxDistance);
+
+  return (
+    <>
+      <Grid pattern={pattern} />
+      <DownloadCsv pattern={pattern} fileName="pattern" />
+    </>
+  );
 }
