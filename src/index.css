@@ -22,7 +22,8 @@ body {
 .grid div {
   width: 11px;
   height: 11px;
-  border: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .thread {
